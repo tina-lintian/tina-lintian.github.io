@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Lin Tian
+
+
+career-profile:
+    title: Career Profile
+    summary: 
+
+education:
+    - degree: MSc in Computer Science
+      university: University of Southern California
+      time: 2010 - 2012
+        
+
+    - degree: BSc in Software Engineering
+      university: Huazhong University of Science and Technology
+      time: 2006 - 2010
+
+experiences:
+    - role: Algorithm Engineer
+      time: 2017 - Present
+      company: Ruijia Technology Inc, Wuhan
+      details: |
+        Researched on clinical problems with doctors from cooperating hospitals based on medical images.
+
+          - Brain glioma classification based on MRI images 
+          - EGFR exon19 and exon21 mutation prediction based on radiomics features from CT images 
+          - Lung nodules detection system 
+          - Automatic end-to-end EGFR mutation status classification based on CT images
+
+    - role: Virtual Reality Game Producer
+      time: 2015 - 2017
+      company: Lilith Games, Shanghai
+      details: |
+        Pong It!VR (Steam)
+
+          - Initiate the project, built a team of five and managed day to day activities of the team 
+          - Designed and implemented game mechanics and user interactions, leading to a ten-time increase in user base 
+          - Led regular touch points within the team and oversaw the production of PongIt! VR
+
+        Senior Game Designer of Soul Hunters (App Store / Google Store), most profitable game in China in 2014 
+          - Collaborated with artists, UI designers, Engineers and QA to implement new systems 
+          - Initiated a data analysis on user retention and causes for user dropout 
+
+    - role: Senior Game Designer
+      time: 2014 - 2015
+      company: NetEase Games, Hangzhou
+      details: |
+        Designed the systems in My Love from the Star (App Store / Google Store)
+          - Designed game mechanics and user interactions and developed the game prototype 
+          - Assisted the producer to analyze competitors and position of the game 
+          - monitored the progress of art resources creation and controlled the overall cost  
+         
+    - role: Mobile Game Engineer
+      time: 2012 - 2014
+      company: Disney Interactive Media Group, Glendale
+      details: |
+        Stack Rabbit (App Store/ Amazon Store/ Google Store)
+
+          - Designed and implemented player progression system and UI system and worked on integrating internal and external libraries 
+          - Improved production pipeline by building tools for artists and designers, and developed Jenkins script to automate build process
+        
+        Where’s My Water, 2012 Apple Design Award Winner 
+          - Collaborated with designers and artists to implement gameplay 
+          - Maintained and optimized rendering module in the in-house game engine 
+        
+
+projects:
+    title: Projects
+    intro: 
+
+    assignments:
+      - title: EGFR mutation status classification
+        link: "#hook"
+        tagline: "Explore non-invasive CT-image based EGFR mutation status exam."
+
+      - title: Lung Nodule Detection
+        link: "#"
+        tagline: "Detect lung nodule from CT-images and classify the malignness."
+
+      - title: Pong It!VR
+        link: "#"
+        tagline: "A virtual reality game published in Steam. Enjoy playing table tennis upon in the clouds with various game modes and AI opponents."
+
+      - title: Soul Hunters
+        link: "#"
+        tagline: "A RPG mobile game published across the world. It is the most profitable mobile game in 2014 China."
+
+      - title: My Love From the Star
+        link: "#"
+        tagline: "A dress-up interactive story game with characters from the famouse korean drama - My Love From the Star."
+
+      - title: Stack Rabbit
+        link: "#"
+        tagline: "A 3D match three puzzle game with an adorable rabbit character."
+
+      - title: Where's My Water?
+        link: "#"
+        tagline: "A 2D water-based puzzle game. It is 2012 Apple Design Award winner."
+
+publications:
+    title: Publications
+    intro: 
+
+    papers:
+      - title: EGFR Exon19 and Exon21 Mutations Prediction by CT-Based Radiomics Features in Lung Adenocarcinoma 
+        authors: Lin Tian, Rong Yuan, Quan Cheng, Qiguang Chen 
+        conference: RSNA Annual Meeting, 2018 (Poster Presentation)
+
+      - title: An automatic end-to-end pipeline for CT image-based EGFR mutation status classification 
+        authors: Lin Tian, Rong Yuan
+        conference: SPIE Medical Imaging (SPIE MI), 2019 (Poster Presentation, accepted)
+
+      - title: An RF-BFE algorithm for feature selection in radiomics analysis 
+        authors: Rong Yuan, Lin Tian, Junhui Chen 
+        conference: SPIE Medical Imaging (SPIE MI), 2019 (Oral Presentation, accepted) 
+

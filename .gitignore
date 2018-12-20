@@ -1,3 +1,5 @@
-_site/
-vendor
-Gem*
+/_site
+*.gem
+.sass-cache
+Gemfile.lock
+/vendor
